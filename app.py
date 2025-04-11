@@ -5,7 +5,7 @@ from PIL import Image
 
 st.set_page_config(page_title="Advanced Image Processing App", layout="wide")
 
-st.title("🖼️ Advanced Image Processing App")
+st.title("Image Processing App")
 st.markdown("Upload an image and apply **cool filters** in real time!")
 
 uploaded_file = st.file_uploader("📁 Upload an image", type=["jpg", "jpeg", "png"])
